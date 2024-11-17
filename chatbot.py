@@ -15,7 +15,7 @@ from langchain_core.output_parsers import StrOutputParser # output parser
 import traceback
 
 # Creating LLM
-google_api_key = "AIzaSyC2wwbtfXzeAOqS81zHYlGtJQcrE-KidHs"
+google_api_key = "AIzaSyC2XXXXXXXXXXXqS81zHYlGtJQcrE-KidHs"
 llm = ChatGoogleGenerativeAI(
     model="gemini-1.5-pro",
     max_token=None,
